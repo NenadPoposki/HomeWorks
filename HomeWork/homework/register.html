@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/registerstyle.css">
+    <title>Register Form</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="table1.html">Play Demo</a></li>
+    
+                    <li><a><input type="search" name="search" id="search" placeholder="Search..."></a></li>
+    
+                </ul>
+    
+    
+            </nav>
+        </div>
+    </header>
+    <h1>Register</h1>
+    <fieldset>
+        <legend>Please fill in this form to create an account.</legend>
+        <br><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter email" required>
+        <br><br>
+        <label for="username">Username</label>
+        <input type="username" name="username" id="username" placeholder="Enter username" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter password" required>
+        <br><br>
+        <label for="repeat-password">Repeat Password</label>
+        <input type="password" name="repeat-password" id="repeat-password" placeholder="Repeat Password" required>
+        <br><br>
+        <label for="tel">Pnone</label>
+        <input type="tel" name="tel" id="tel" placeholder="Enter phone number">
+        <br><br>
+        <label for="question">Security question</label>
+        <select name="question" id="question">
+        <option value="q1"> Your favorite meal</option>
+        <option value="q2"> Your born city</option>
+        <option value="q3"> Your first pet name</option>
+        </select>
+        <br><br>
+        <label for="textarea">Enter your answer</label>
+        <input type="textarea" name="textarea" id="textarea" placeholder="Answer..">
+        <br><br><br>
+        <input type="checkbox" name="checkbox" id="checkbox" required>
+        <label for="checkbox">I agree to the terms and conditions and the privacy policy</label>
+        <br><br>
+        <button type="submit" value="submit">REGISTER</button>
+    </fieldset>
+    
+</body>
+</html>
