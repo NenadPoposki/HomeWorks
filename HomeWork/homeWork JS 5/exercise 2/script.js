@@ -12,7 +12,7 @@ let num = [2,5,7,11,22];
 }
     
 
-printAll(num, list);
+printAll(num, myNum);
 
 function sum(suma) {
     let zbir = 0;
